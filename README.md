@@ -15,3 +15,7 @@ Private repositories can be access by providing a username and access token.
 `docker run -e REPOSITORY_URL=https://USERNAME:ACCESSTOKEN@github.com/twbs/bootstrap -p 8080:80 --restart=unless-stopped nginx-github-static`
 
 Every time the container is restarted, it will clone the latest content from the Git repository.
+
+# Resources
+* https://github.com/sjoerdvanderhoorn/nginx-github-static/
+* https://hub.docker.com/r/sjoerdvanderhoorn/nginx-github-static
